@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    color: black;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/* Header Style Start */
+
+header {
+    background-image: url("./images/IMG_Hero.jpg");
+    background-size: cover;
+    background-position: 80%;
+    background-attachment: fixed;  
+    padding: 20px 35px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+header nav {
+    margin: 30px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    align-items: center;
+}
+
+header nav ul li a:hover {
+    background: black;
+    color: white;
+    border-radius: 15px;
+    text-shadow: none;
+}
+
+/* Header Style End */
+
+/* Intro Style Start */
+
+.header--intro {
+    background-color: #6D6361;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.2;
+} 
+
+/* Intro Style Start */
+
+/* About Style Start */
+
+.intro {
+    display: flex;
+}
+
+.intro > div {
+    flex-basis: 50%;
+}
+
+.about h2 {
+    text-align: center;
+    display: flex;
+    justify-content: flex-start;
+    float: left;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.about p {
+    text-align: left;
+    display: flex;
+    justify-content: flex-start;
+    float: left;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.contact {
+    text-align: center;
+    display: flex;
+    justify-content: flex-end;
+    float: right;
+    flex-direction: column;
+}
+
+.contact h2 {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    float: right;
+    flex-direction: column;
+}
+
+.contact div {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    float: right;
+    flex-direction: column;
+}
+
+.contact button {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    float: right;
+    flex-direction: column;
+}
+
+/* About Style End */
+
+/* Work Style Start */
+
+.work {
+    display: flex;
+    text-align: right;
+    flex-wrap: column-reverse;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.work h2, .work h3, .work h4, .work h5 {
+    display: flex;
+    flex-wrap: column-reverse;
+    justify-content: flex-end;
+    flex-direction: column;
+}    
+
+.work {
+    display: flex;
+    flex-wrap: column-reverse;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+
+/* Work Style End */
+
+/* Projects Style Start */
+
+.projects {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.project {
+  margin: 20px;
+  background: var(--secondary-color);
+  color: var(--primary-color);
+  flex: 1;
+}
+
+.project img {
+  width: 100%;
+}
+
+.project-description {
+  padding: 25px;
+  line-height: 0.5;
+  text-align: center;
+}
+
+.project-description h3 {
+  font-size: 28px;
+}
+
+.project-description h4 {
+  font-weight: lighter;
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.project-description p {
+  font-size: 17px;
+}
+
+img {
+    border: 3px solid royalblue;
+    border-radius: 2px;
+    padding: 1px;
+    width: 100px;
+  }
+  
+img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+    opacity: 0.5;
+  }
+
+.flex-row {
+    display: flex;
+}
+
+/* Projects Style End */
+
+/* Footer Style Start */
+
+footer {
+    background-color: #9EB1CB;
+}
+
+footer div {
+    line-height: 1.5;
+    text-align: right;
+}
+
+footer a {
+    color: black;
+}
+
+/* Footer Style End */
+
+
+ 
