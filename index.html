@@ -9,8 +9,8 @@
 <body>
  
 <!-- Navigation Bar -->
-<header>
-    <nav>
+<header id="header">
+    <nav class="navigation">
         <ul>
             <li>
                 <a href="#home">Home</a>
@@ -34,21 +34,25 @@
 <!-- Hero -->
 <section id="hero">
     <div class="header--intro">
-        <h3>Hello, I'm Sterling Peck</h3></br>
+        <h3>Hello, I'm Sterling Peck</h3>
         <p>
-            I am currently a Senior Systems Administrator and aspiring Front-End Web Developer.
+            I am currently a Senior Systems Administrator and aspiring Web Developer.
         </p>
-    </div>    
+        <img src="./assets/images/arrowhead-down-outline.svg" ahref="">
+    </div>   
 </section>
-
-</br>
-</br>
 
 <!-- About Me -->
 <section class="intro">
 <div id="aboutme">
     <div class="about">
         <h2>About Me</h2>
+        <img src="./assets/images/sterling.png" alt="">
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis doloribus explicabo, harum, exercitationem rem nulla quisquam esse asperiores nam et cum nostrum sunt consequatur maxime mollitia dolorem totam eum libero. 
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis doloribus explicabo, harum, exercitationem rem nulla quisquam esse asperiores nam et cum nostrum sunt consequatur maxime mollitia dolorem totam eum libero.  
+        </p>
+        </br>
         <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis doloribus explicabo, harum, exercitationem rem nulla quisquam esse asperiores nam et cum nostrum sunt consequatur maxime mollitia dolorem totam eum libero. 
         </p>
@@ -56,73 +60,77 @@
 </div>
 
 <!-- Contact Info -->
-<div class="contact">
-    <h2>Contact Details</h2>
+<div class="contact--header">
+    <h2 class="contact">Contact Details</h2>
     <div>
         <h3>Sterling Peck</h3>
         <address>
             Phone: <a href="tel:555.555.5555">555.555.5555</a><br />
             Email: <a href="mailto://peck.sterling@gmail.com">peck.sterling@gmail.com</a>
           </address>
-    </div>
-    <div>
-        <p>
+          <p>
             <button type="submit">
                 Resume PDF
             </button>
-        </p>
+         </p>
     </div>
 </sdiv>
 </section>
 
-</br>
-</br>
+<div class="divider"></div>
 
 <!-- Resume -->
 <section id="resume">
     <div class="work">
         <h2>Work</h2>
     </br>
-    <!-- ARUP -->    
+    <!-- ARUP -->
+    <div>    
         <h3>ARUP Laboratories</h3>
         <h4>Systems Services Admin II</h4>
         <h5>March 2020 - Present</h5></br>
         <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat iure, nulla totam tenetur quisquam corrupti earum iusto distinctio vitae deleniti! Eveniet qui vitae et sint omnis tempora voluptates soluta obcaecati.
         </p>
+    </div>
     </br>
     <!-- Clearlink -->
+    <div>
         <h3>Clearlink</h3>
         <h4>Senior IT Support Engineer</h4>
         <h5>Date - Date</h5></br>
         <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat iure, nulla totam tenetur quisquam corrupti earum iusto distinctio vitae deleniti! Eveniet qui vitae et sint omnis tempora voluptates soluta obcaecati.
         </p>
+    </div>
     </br>
     <!-- Goldman Sachs -->
+    <div>
         <h3>Goldman Sachs</h3> 
         <h4>Computer Specialist</h4>
         <h5>Date - Date</h5></br>
         <p>
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat iure, nulla totam tenetur quisquam corrupti earum iusto distinctio vitae deleniti! Eveniet qui vitae et sint omnis tempora voluptates soluta obcaecati.
         </p>
+    </div>
     </br>
     <!-- HCI -->
+    <div>
         <h3>Hunstman Cancer Institute</h3> 
         <h4>Junior Sytems Administrator</h4>
         <h5>Date - Date</h5></br>
         <p>
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat iure, nulla totam tenetur quisquam corrupti earum iusto distinctio vitae deleniti! Eveniet qui vitae et sint omnis tempora voluptates soluta obcaecati.
         </p>
+        <div></div>
     </br>
     </div>
 </section>
 
-</br>
-</br>
+<div class="divider"></div>
 
 <!-- Education -->
-<section id="education">
+<section id="education" class="school">
     <div>
         <h2>Education</h2></br>
     </div>
@@ -144,10 +152,9 @@
         <p>
             HTML5, CSS3, JavaScript, jQuery, Express.js, React.js, Node.js, MongoDB, MySQL and Git.
         </p>
+</section>
 
-</br>
-</br>
-</br>
+<div class="divider"></div>
 
 <!-- Projects -->
 <section id="myprojects">
@@ -216,13 +223,9 @@
 <!-- Footer -->
 <footer>
     <div>
-        &copy; 2022 Sterling Peck
-        <a href="https://www.linkedin.com/in/sterlingpeck/" class="social-icon si-rounded si-small si-linkedin">
-            <i class="icon-linkedin"></i>
-        </a>
-        <a href="" class="social-icon si-rounded si-small si-github">
-            <i class="icon-github"></i>
-        </a>   
+        &copy; 2022 Sterling Peck</br>
+        <a href="https://www.linkedin.com/in/sterlingpeck/"><img src="./assets/images/linkedin-outline.svg" alt="linkedin" style="width:42px;height:42px;"></a>
+        <a href="https://github.com/sterlingpeck"><img src="./assets/images/github-outline.svg" alt="github" style="width:42px;height:42px;"></a> 
     </div>
 </footer>
 

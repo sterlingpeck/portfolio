@@ -11,13 +11,8 @@ body {
 
 /* Header Style Start */
 
-header {
-    background-image: url("./images/IMG_Hero.jpg");
-    background-size: cover;
-    background-position: 80%;
-    background-attachment: fixed;  
-    padding: 20px 35px;
-    background-color: white;
+header { 
+    background-color: #404245;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -32,7 +27,7 @@ header a {
 }
 
 header nav {
-    margin: 30px 0;
+    margin: 10px 0;
 }
 
 header nav ul {
@@ -50,7 +45,7 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    background: black;
+    background: #4a4c4f;
     color: white;
     border-radius: 15px;
     text-shadow: none;
@@ -61,11 +56,16 @@ header nav ul li a:hover {
 /* Intro Style Start */
 
 .header--intro {
-    background-color: #6D6361;
+    background-image: linear-gradient(to right, rgba(110, 101, 135), rgba(128, 57, 68));
     text-align: center;
     font-size: 18px;
-    line-height: 1.2;
-} 
+    line-height: 5.0;
+}
+
+.header--intro img {
+    width: 50px;
+    height: 50px;
+}
 
 /* Intro Style Start */
 
@@ -73,45 +73,43 @@ header nav ul li a:hover {
 
 .intro {
     display: flex;
+    background-color: #404245;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.2;
+    box-shadow: none;
 }
 
 .intro > div {
     flex-basis: 50%;
 }
 
-.about h2 {
+.intro img {
+    box-shadow: none;
+}
+
+.about h2, .about p {
     text-align: center;
     display: flex;
     justify-content: flex-start;
-    float: left;
     flex-direction: column;
     flex-wrap: wrap;
 }
 
-.about p {
-    text-align: left;
+.contact--header {
     display: flex;
-    justify-content: flex-start;
-    float: left;
+    align-items: center;
     flex-direction: column;
-    flex-wrap: wrap;
-}
-
-.contact {
-    text-align: center;
-    display: flex;
-    justify-content: flex-end;
-    float: right;
-    flex-direction: column;
+    margin: 40px;
+    flex: 1;
+    background-color: #4a4c4f;
+    border-radius: 1px;
+    padding: 1px;
+    border-radius: 20px;
 }
 
 .contact h2 {
-    text-align: center;
     display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    float: right;
-    flex-direction: column;
 }
 
 .contact div {
@@ -127,9 +125,6 @@ header nav ul li a:hover {
     text-align: center;
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
-    float: right;
-    flex-direction: column;
 }
 
 /* About Style End */
@@ -142,6 +137,12 @@ header nav ul li a:hover {
     flex-wrap: column-reverse;
     justify-content: flex-end;
     flex-direction: column;
+    background-color: #F2E9EA;
+    align-items: flex-end;
+}
+
+.work div {
+    width: 50%;
 }
 
 .work h2, .work h3, .work h4, .work h5 {
@@ -149,17 +150,18 @@ header nav ul li a:hover {
     flex-wrap: column-reverse;
     justify-content: flex-end;
     flex-direction: column;
-}    
-
-.work {
-    display: flex;
-    flex-wrap: column-reverse;
-    justify-content: flex-end;
-    flex-direction: column;
-}
-
+}  
 
 /* Work Style End */
+
+/* Education Style Start */
+
+.school {
+    align-items: center;
+    background-color: #F2E9EA;
+}
+
+/* Education Style End */
 
 /* Projects Style Start */
 
@@ -169,13 +171,13 @@ header nav ul li a:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    background-color: #A9BEC3;
 }
 
 .project {
   margin: 20px;
-  background: var(--secondary-color);
-  color: var(--primary-color);
   flex: 1;
+  background-color: #A9BEC3;
 }
 
 .project img {
@@ -203,9 +205,8 @@ header nav ul li a:hover {
 }
 
 img {
-    border: 3px solid royalblue;
-    border-radius: 2px;
-    padding: 1px;
+    border: 3px solid #404245;
+    border-radius: 10px;
     width: 100px;
   }
   
@@ -216,6 +217,7 @@ img:hover {
 
 .flex-row {
     display: flex;
+    background-color: #A9BEC3;
 }
 
 /* Projects Style End */
@@ -227,8 +229,8 @@ footer {
 }
 
 footer div {
-    line-height: 1.5;
-    text-align: right;
+    line-height: 5.0;
+    text-align: center;
 }
 
 footer a {
@@ -236,6 +238,13 @@ footer a {
 }
 
 /* Footer Style End */
+
+.divider {
+    border-bottom: 3px solid;
+    width: 50%;
+    padding: none;
+    display: flex;
+}
 
 
  

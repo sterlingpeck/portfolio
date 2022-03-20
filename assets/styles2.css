@@ -1,0 +1,53 @@
+body {
+    color: black;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+
+/* Header Style Start */
+
+header {
+    background-image: url("./images/IMG_Hero.jpg");
+    background-size: cover;
+    background-position: 80%;
+    background-attachment: fixed;  
+    padding: 20px 35px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+header nav {
+    margin: 30px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    align-items: center;
+}
+
+header nav ul li a:hover {
+    background: black;
+    color: white;
+    border-radius: 15px;
+    text-shadow: none;
+}
+
+/* Header Style End */
