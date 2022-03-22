@@ -86,26 +86,27 @@ header nav ul li a:hover {
 
 .intro img {
     box-shadow: none;
+    margin: 20px;
 }
 
 .about h2, .about p {
     text-align: center;
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-evenly;
     flex-direction: column;
     flex-wrap: wrap;
+    margin: 20px;
 }
 
 .contact--header {
     display: flex;
-    align-items: center;
     flex-direction: column;
-    margin: 40px;
+    justify-content: space-around;
+    margin: 125px;
     flex: 1;
     background-color: #4a4c4f;
     border-radius: 1px;
     padding: 1px;
-    border-radius: 20px;
 }
 
 .contact h2 {
@@ -134,7 +135,6 @@ header nav ul li a:hover {
 .work {
     display: flex;
     text-align: right;
-    flex-wrap: column-reverse;
     justify-content: flex-end;
     flex-direction: column;
     background-color: #F2E9EA;
@@ -143,6 +143,7 @@ header nav ul li a:hover {
 
 .work div {
     width: 50%;
+    margin: 20px;
 }
 
 .work h2, .work h3, .work h4, .work h5 {
@@ -150,6 +151,7 @@ header nav ul li a:hover {
     flex-wrap: column-reverse;
     justify-content: flex-end;
     flex-direction: column;
+    margin: 20px;
 }  
 
 /* Work Style End */
@@ -157,8 +159,11 @@ header nav ul li a:hover {
 /* Education Style Start */
 
 .school {
-    align-items: center;
     background-color: #F2E9EA;
+}
+
+.school div {
+    padding: 25px;
 }
 
 /* Education Style End */
