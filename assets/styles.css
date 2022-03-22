@@ -85,8 +85,7 @@ header nav ul li a:hover {
 }
 
 .intro img {
-    box-shadow: none;
-    margin: 20px;
+    margin: 21px;
 }
 
 .about h2, .about p {
@@ -96,6 +95,7 @@ header nav ul li a:hover {
     flex-direction: column;
     flex-wrap: wrap;
     margin: 20px;
+    padding: 5px;
 }
 
 .contact--header {
@@ -105,13 +105,11 @@ header nav ul li a:hover {
     margin: 125px;
     flex: 1;
     background-color: #4a4c4f;
-    border-radius: 1px;
     padding: 1px;
+    
 }
 
-.contact h2 {
-    display: flex;
-}
+/* .contact h2 { }*/
 
 .contact div {
     text-align: center;
@@ -162,9 +160,10 @@ header nav ul li a:hover {
     background-color: #F2E9EA;
 }
 
-.school div {
-    padding: 25px;
-}
+ /* .school div {
+     padding: 0 0 20px 20px;
+ } */
+
 
 /* Education Style End */
 
@@ -172,11 +171,11 @@ header nav ul li a:hover {
 
 .projects {
     width: 100%;
-    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     background-color: #A9BEC3;
+    padding: 20px;
 }
 
 .project {
@@ -240,6 +239,7 @@ footer div {
 
 footer a {
     color: black;
+    opacity: 65%;
 }
 
 /* Footer Style End */
@@ -249,6 +249,9 @@ footer a {
     width: 50%;
     padding: none;
     display: flex;
+    opacity: 65%;
+    flex-wrap: wrap;
+    align-self: center;
 }
 
 
