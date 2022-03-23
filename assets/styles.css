@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
 
 body {
@@ -51,6 +52,7 @@ header nav ul li a:hover {
     text-shadow: none;
 }
 
+
 /* Header Style End */
 
 /* Intro Style Start */
@@ -59,7 +61,8 @@ header nav ul li a:hover {
     background-image: linear-gradient(to right, rgba(110, 101, 135), rgba(128, 57, 68));
     text-align: center;
     font-size: 18px;
-    line-height: 5.0;
+    padding: 20%;
+    line-height: 2.5;
 }
 
 .header--intro img {
@@ -99,17 +102,17 @@ header nav ul li a:hover {
 }
 
 .contact--header {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    margin: 125px;
-    flex: 1;
-    background-color: #4a4c4f;
-    padding: 1px;
-    
+    border: 3px solid;
+    background-color: rgba(151, 151, 151 , 0.8);
+    padding: 25px;
+    width: 40%;
+    margin: 3.5%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
 }
 
-/* .contact h2 { }*/
+
+
 
 .contact div {
     text-align: center;
@@ -118,12 +121,6 @@ header nav ul li a:hover {
     justify-content: flex-end;
     float: right;
     flex-direction: column;
-}
-
-.contact button {
-    text-align: center;
-    display: flex;
-    flex-direction: row;
 }
 
 /* About Style End */
@@ -144,7 +141,12 @@ header nav ul li a:hover {
     margin: 20px;
 }
 
-.work h2, .work h3, .work h4, .work h5 {
+.work h2 {
+    background-color: #F2E9EA;
+    display: flex;
+    text-decoration: underline;
+}  
+.work h3 .work h4, .work h5 {
     display: flex;
     flex-wrap: column-reverse;
     justify-content: flex-end;
@@ -158,12 +160,42 @@ header nav ul li a:hover {
 
 .school {
     background-color: #F2E9EA;
+    display: flex;
+    text-align: left;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
- /* .school div {
-     padding: 0 0 20px 20px;
- } */
+.school div {
+    width: 50%;
+    margin: 20px;
+}
 
+.school h2 {
+    display: flex;
+    flex-wrap: column-reverse;
+    justify-content: flex-end;
+    flex-direction: column;
+    font-style: oblique;
+    text-decoration: underline;
+}  
+
+.school h4 {
+    display: flex;
+    flex-wrap: column-reverse;
+    justify-content: flex-end;
+    flex-direction: column;
+    font-style: italic;
+    margin: 10px;
+}    
+
+.school h3, .school h5 .school p {
+    display: flex;
+    flex-wrap: column-reverse;
+    justify-content: flex-end;
+    flex-direction: column;
+}    
 
 /* Education Style End */
 
@@ -182,6 +214,10 @@ header nav ul li a:hover {
   margin: 20px;
   flex: 1;
   background-color: #A9BEC3;
+}
+
+.projects h2, .project h3 {
+    font-style: oblique;
 }
 
 .project img {
@@ -254,5 +290,16 @@ footer a {
     align-self: center;
 }
 
-
  
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+
+/* @media screen and (max-width: 980px) { */
+  
+    
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+  
+/* @media screen and (max-width: 768px) { */
+     
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+  
+/* @media screen and (max-width: 575px) { */
