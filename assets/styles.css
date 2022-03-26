@@ -293,13 +293,73 @@ footer a {
  
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 
-/* @media screen and (max-width: 980px) { */
+@media screen and (max-width: 980px) {
   
+    @media screen and (max-width: 980px) {
+  
+        header {
+          padding-bottom: 0;
+          justify-content: center;
+          position: relative;
+        }
+      
+        header h1 {
+          width: 100%;
+          text-align: center;
+        }
+      
+        header nav ul {
+          margin-top: 20px;
+          width: 100%;
+          justify-content: center;
+        }
+      
+        header nav ul li a {
+          font-size: 20px;
+        }
+      
+        footer h2, footer div, .project, .project-description, .projects, .project img .about {
+          text-align: center;
+          width: 100%;
+          flex-wrap: wrap;
+        }
+    }
+}
+
+  /* MEDIA QUERY FOR TABLETS AND SMALLER */
+  
+  @media screen and (max-width: 768px) {
     
-/* MEDIA QUERY FOR TABLETS AND SMALLER */
+    section {
+      padding: 30px 15px;
+    }
   
-/* @media screen and (max-width: 768px) { */
-     
-/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+    .work h2, .education h2 {
+      flex: 1 100%;
+      text-align: center;
+    }
   
-/* @media screen and (max-width: 575px) { */
+    .work div, .education div {
+      flex: 2 100%;
+      text-align: center;
+      justify-content: center;
+    }
+  }
+  
+  /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+  
+  @media screen and (max-width: 575px) {
+  
+    .intro {
+      width: 100%;
+    }
+  
+    .work {
+      flex: 0 100%;
+    }
+  
+    .contact-info {
+      text-align: center;
+      flex: 0 100%;
+    }
+  }
